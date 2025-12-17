@@ -9,6 +9,7 @@ import (
 	"advent_of_code_2025/day6"
 	"advent_of_code_2025/day7"
 	"advent_of_code_2025/day8"
+	"advent_of_code_2025/day9"
 	"fmt"
 )
 
@@ -29,4 +30,6 @@ func main() {
 	fmt.Println(day7.Problem2("day7/data.txt"))
 	fmt.Println(day8.Problem1("day8/data.txt"))
 	fmt.Println(day8.Problem2("day8/data.txt"))
+	fmt.Println(day9.Problem1("day9/data.txt"))
+	fmt.Println(day9.Problem2("day9/data.txt"))
 }
